@@ -1,4 +1,4 @@
-![Foliotype Protocol](https://github.com/pierrentsama/foliotype-protocol/raw/main/docs/banniere_preview.gif)
+![Foliotype Banner](https://raw.githubusercontent.com/pierrentsama/foliotype-protocol/master/docs/assets/banniere_preview.gif)
 ---
 
 ## 📜 Manifeste du Système
