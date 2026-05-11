@@ -1,0 +1,5 @@
+# Bloque l'accès de l'IA aux fichiers sensibles de production
+.env
+config/production.json
+**/certs/*
+scripts/deploy.sh
