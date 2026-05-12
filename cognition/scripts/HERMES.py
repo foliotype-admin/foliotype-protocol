@@ -62,10 +62,26 @@ def generate_hermes():
         "xi-api-key": API_KEY
     }
     
-    data = {
-        "text": texte,
-        "model_id": "eleven_multilingual_v2",
-        "voice_settings": {"stability": 0.5, "similarity_boost": 0.80}
+  # Version FRANÇAISE (Stabilité standard)
+    data_fr = {
+    "text": texte_fr,
+    "model_id": "eleven_multilingual_v2",
+    "voice_settings": {
+        "stability": 0.5, 
+        "similarity_boost": 0.80,
+        "style_誇張": 0.15
+    }
+    s}
+
+# Version ANGLAISE (Ralentie & expressive)
+    data_en = {
+    "text": texte_en,
+    "model_id": "eleven_multilingual_v2",
+    "voice_settings": {
+        "stability": 0.3,          # Moins de monotonie en fin de phrase
+        "similarity_boost": 0.80, 
+        "style_exaggeration": 0.35 # Ralentit le débit
+    }
     }
 
     print(f"⏳ PROPULSION HERMES ({LANGUE}) : Envoi vers ElevenLabs...")
