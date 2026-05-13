@@ -26,4 +26,9 @@ foliotype protocol envisions the audio version of your work as a seamless extens
 *   [nda / non-disclosure agreement (en)](assets/legal/legal_nda_en_2026.pdf)
 
 ---
+
+[https://github.com/pierrentsama/foliotype-protocol/raw/master/assets/output/mastered/foliotype_protocol_banniere_video.mp4](https://github.com/pierrentsama/foliotype-protocol/raw/master/assets/output/mastered/foliotype_protocol_banniere_video.mp4)
+
+---
+
 > **protocol status**: operational | **access**: restricted
