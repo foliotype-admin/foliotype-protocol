@@ -1,101 +1,116 @@
 import os
 import time
 import requests
+import random
+import re
 from pathlib import Path
 from dotenv import load_dotenv
 
-# --- PILOTAGE (À MODIFIER ICI) ---
-# LANGUE = 'FR' 
-LANGUE = 'EN'
-
-# --- 1. CONFIGURATION ---
+# --- 1. CONFIGURATION ET CHARGEMENT ---
+# Détection dynamique de la racine du projet (foliotype-protocol)
 BASE_PATH = Path(__file__).resolve().parent.parent.parent
-ENV_PATH = BASE_PATH / '.env'
-load_dotenv(dotenv_path=ENV_PATH)
-API_KEY = os.getenv("ELEVEN_API_KEY")
+env_path = BASE_PATH / ".env"
 
-if not API_KEY:
-    print(f"❌ ERREUR : API_KEY non détectée dans {ENV_PATH}")
-    exit()
+if env_path.exists():
+    # override=True assure que les variables du fichier écrasent celles du système
+    load_dotenv(dotenv_path=env_path, override=True)
 else:
-    print(f"✅ PROTOCOLE : Liaison établie avec ElevenLabs")
+    print(f"❌ ERREUR CRITIQUE : Fichier .env absent à {env_path}")
 
-# --- 2. CONFIGURATION DES IDENTITÉS ---
-# Assurez-vous que ces IDs sont ceux de votre NOUVEAU compte
+API_KEY = os.getenv("ELEVEN_API_KEY")
+CURRENT_VOICE_ID = os.getenv("VOICE_ID_HERMES")
+
+# --- 2. RÉGLAGES ET PILOTAGE ---
+LANGUE = 'FR' 
+
 VOICE_CONFIG = {
     'FR': {
-        'id': 'VOTRE_ID_HERMES_FR', 
-        'script': 'script_fr.txt',
-        'output': 'output/FR'
+        'path': "docs/assets/workflow/script_source_fr.txt",
+        'out': "hermes_fr_master.mp3",
+        'params': {
+            "stability": 0.65,
+            "similarity_boost": 0.8,
+            "style": 0.0,
+            "speed": 1.1,
+            "use_speaker_boost": True
+        }
     },
     'EN': {
-        'id': 'XXmoXQ8IkRfLsD1O1lKV', # ID utilisé dans votre test
-        'script': 'script_en.txt',
-        'output': 'output/EN'
+        'path': "docs/assets/workflow/script_source_en.txt",
+        'out': "hermes_en_master.mp3",
+        'params': {
+            "stability": 0.5,
+            "similarity_boost": 0.85,
+            "style": 0.45,
+            "speed": 0.9,
+            "use_speaker_boost": True
+        }
     }
 }
 
-# --- 3. LOGIQUE DE GÉNÉRATION DYNAMIQUE ---
+# --- 3. MOTEUR RYTHMIQUE ---
+def inject_natural_rhythm(text):
+    def rand_sp(base):
+        return " " * (base + random.randint(-3, 4))
+    text = text.replace(", ", f", .{rand_sp(4)}. ")
+    text = re.sub(r'\. ([A-Z])', rf'.{rand_sp(10)}. \1', text)
+    paragraphs = text.split("\n\n")
+    processed_paragraphs = []
+    for p in paragraphs:
+        if p.strip():
+            processed_paragraphs.append(p.strip() + f".{rand_sp(18)}.")
+    return "\n\n".join(processed_paragraphs)
+
+# --- 4. GÉNÉRATION ---
 def generate_hermes():
-    # RÉCUPÉRATION DE LA CONFIG SELON LE SWITCH
+    if not CURRENT_VOICE_ID:
+        print("❌ ÉCHEC : VOICE_ID_HERMES non détecté. Vérifiez votre fichier .env")
+        return
+
     config = VOICE_CONFIG[LANGUE]
-    
-    script_path = BASE_PATH / "COGNITION" / config['script']
-    output_dir = BASE_PATH / config['output']
+    script_path = BASE_PATH / config['path']
+    output_dir = BASE_PATH / "cognition" / "output" / "mastered"
     output_dir.mkdir(parents=True, exist_ok=True)
     
     if not script_path.exists():
-        print(f"❌ ERREUR : Fichier source introuvable : {script_path}")
+        print(f"❌ SCRIPT SOURCE MANQUANT : {script_path}")
         return
 
     with open(script_path, "r", encoding="utf-8") as f:
-        texte = f.read()
+        raw_text = f.read()
 
-    print(f"🌍 MODE : {LANGUE} | 📖 LECTURE : {len(texte)} caractères.")
+    final_text = inject_natural_rhythm(raw_text)
     
-    # L'URL utilise maintenant l'ID de la config choisie
-    url = f"https://api.elevenlabs.io/v1/text-to-speech/{config['id']}"
-    
+    url = f"https://api.elevenlabs.io/v1/text-to-speech/{CURRENT_VOICE_ID}"
     headers = {
-        "Accept": "audio/mpeg",
-        "Content-Type": "application/json",
+        "Accept": "audio/mpeg", 
+        "Content-Type": "application/json", 
         "xi-api-key": API_KEY
     }
     
-  # Version FRANÇAISE (Stabilité standard)
-    data_fr = {
-    "text": texte_fr,
-    "model_id": "eleven_multilingual_v2",
-    "voice_settings": {
-        "stability": 0.5, 
-        "similarity_boost": 0.80,
-        "style_誇張": 0.15
-    }
-    s}
-
-# Version ANGLAISE (Ralentie & expressive)
-    data_en = {
-    "text": texte_en,
-    "model_id": "eleven_multilingual_v2",
-    "voice_settings": {
-        "stability": 0.3,          # Moins de monotonie en fin de phrase
-        "similarity_boost": 0.80, 
-        "style_exaggeration": 0.35 # Ralentit le débit
-    }
+    data = {
+        "text": final_text,
+        "model_id": "eleven_multilingual_v2",
+        "voice_settings": config['params']
     }
 
-    print(f"⏳ PROPULSION HERMES ({LANGUE}) : Envoi vers ElevenLabs...")
+    print(f"🌍 MODE : {LANGUE} | 🎙️ Voix : HERMES | ⚙️ Rythme actif.")
     response = requests.post(url, json=data, headers=headers)
 
     if response.status_code == 200:
-        timestamp = time.strftime("%Hh%M")
-        # Le nom du fichier s'adapte aussi à la langue
-        filename = output_dir / f"HERMES_{LANGUE}_{timestamp}_MASTER.mp3"
-        with open(filename, "wb") as f:
+        ts = time.strftime("%d%m_%H%M")
+        # Respect strict : minuscule et underscores uniquement
+        clean_out = config['out'].lower().replace(" ", "_")
+        archive_name = f"{ts}_{clean_out}"
+        
+        with open(output_dir / clean_out, "wb") as f: 
             f.write(response.content)
-        print(f"✅ SUCCÈS : Master HERMES {LANGUE} généré -> {filename}")
+        with open(output_dir / archive_name, "wb") as f: 
+            f.write(response.content)
+            
+        print(f"✅ SUCCÈS : {archive_name}")
     else:
-        print(f"❌ ÉCHEC API {LANGUE} : {response.status_code} - {response.text}")
+        print(f"❌ ÉCHEC : {response.status_code} - {response.text}")
 
 if __name__ == "__main__":
     generate_hermes()

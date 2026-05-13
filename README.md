@@ -1,16 +1,14 @@
-![Foliotype Banner](https://raw.githubusercontent.com/pierrentsama/foliotype-protocol/master/docs/assets/banniere_preview.gif)
+---
+layout: default
+title: Foliotype Protocol
 ---
 
-## 📜 Manifeste du Système
-Cette section définit la vision et les standards de qualité de Foliotype Studio. Le moteur Cognition assure la cohérence entre la stratégie créative et l'exécution technique, garantissant une empreinte sonore unique et protégée.
+# Foliotype Protocol
+
+### Vocal Signature / Signature Vocale
+Foliotype Protocol conçoit la mise en audio de vos écrits, comme une extension naturelle de vos publications papiers ou numériques. En scellant votre œuvre, Foliotype Protocol garantie sa **signature vocale** et la rigueur de son standard.
+
+### English Version
+Foliotype Protocol envisions the audio version of your work as a seamless extension of your print or digital publications. By sealing your work, Foliotype Protocol secures its **vocal signature** and the rigor of its standard.
 
 ---
-
-### Master References
-* [Master Reference FR](https://github.com/pierrentsama/foliotype-protocol/raw/main/docs/assets/audio/foliotype_master_reference_fr.mp3)
-* [Master Reference EN](https://github.com/pierrentsama/foliotype-protocol/raw/main/docs/assets/audio/foliotype_master_reference_en.mp3)
-
-> **Note :** Les Master References sont les seules versions faisant foi pour la production. Pour consulter les rapports d'exécution floutés, veuillez vous référer à la [Documentation des Scripts](./cognition/scripts/README.md).
-
----
-1345

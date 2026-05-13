@@ -1,15 +1,3 @@
-[ SOURCE_ID: HERMES-EN-2026-V1 ]                     [ FOLIOTYPE PROTOCOL ]
-
-"Welcome to this reflection. This is Hermes. I wish to establish with you
-a core principle of Foliotype Protocol: the absolute primacy of written
-content over its audible form.
-
-In our ecosystem, transparency is not an aesthetic concept. It is a
-service requirement. Audio is not meant to divert the light, nor to
-substitute its own emotion for the strength of your writing. It acts
-as a natural extension, a carrier wave whose sole mission is to serve
-the structure of your thought.
-
 We reject any staging that would act as a screen between the mind and
 the text. Our approach is intended to be complementary. It offers your
 audience the freedom of multitasking consumption without ever
@@ -25,5 +13,3 @@ within the digital chaos.
 
 Every syllable produced here is fine-combed. Every frequency is
 calibrated to respect the intention of the original writing."
-
-[ STATUS: CERTIFIED_TEXT_SOURCE ]                        [ CHECKSUM: VERIFIED ]
