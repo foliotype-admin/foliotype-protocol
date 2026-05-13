@@ -26,4 +26,8 @@ Le **Foliotype Protocol** conçoit la mise en audio de vos écrits comme une ext
 
 ---
 
+$c = "# Foliotype Protocol`nL'extension audio haute fidelite pour les publications d'exception.`n`n---`n### 🎙️ Incipit Audio (Streaming)`n* [Ecouter en Français](https://github.com/pierrentsama/foliotype-protocol/raw/master/assets/output/mastered/foliotype_protocol_incipit_fr.mp3)`n* [Listen in English](https://github.com/pierrentsama/foliotype-protocol/raw/master/assets/output/mastered/foliotype_protocol_incipit_en.mp3)`n`n---`n### 🎥 Master Video (Archive)`n* [Telecharger la banniere video](https://github.com/pierrentsama/foliotype-protocol/raw/master/assets/output/mastered/foliotype_protocol_banniere_video.mp4)`n`n> **Note technique** : En raison de l'exigence capricieuse des conditions du streaming video GitHub, Foliotype Protocol s'est resolu a preferer l'option du telechargement pur et simple pour la consultation de notre banniere video. C'est une procedure parfaitement sure qui garantit l'integrite de l'experience.`n`n---`n> **Protocol Status**: Operational"
+
+Set-Content -Path "README.md" -Value $c -Encoding UTF8
+
 > **Protocol Status**: Operational | **Access**: Restricted
