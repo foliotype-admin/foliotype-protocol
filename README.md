@@ -1,8 +1,3 @@
----
-layout: default
-title: Foliotype Protocol
----
-
 # Foliotype Protocol
 
 ### Vocal Signature / Signature Vocale
@@ -15,14 +10,10 @@ Foliotype Protocol envisions the audio version of your work as a seamless extens
 
 ### 📂 Documentation & Protocole
 
-| Français (FR) | English (EN) |
-| :--- | :--- |
-| [Stratégie de traitement]({{ site.baseurl }}/assets/fr/strategie_traitement_texte.md) | [Text Strategy]({{ site.baseurl }}/assets/en/text_strategy_processing.md) |
-| [Analyse Audio]({{ site.baseurl }}/assets/fr/analyse_audio.md) | [Audio Analysis]({{ site.baseurl }}/assets/en/audio_analysis.md) |
-| [Certification Master]({{ site.baseurl }}/assets/fr/certification_master.md) | [Master Certification]({{ site.baseurl }}/assets/en/master_certification.md) |
+*   [Stratégie de traitement](assets/fr/strategie_traitement_texte.md)
+*   [Analyse Audio](assets/fr/analyse_audio.md)
+*   [Certification Master](assets/fr/certification_master.md)
 
 ### ⚖️ Legal & Compliance
-*   [NDA / Accord de confidentialité (FR)]({{ site.baseurl }}/assets/legal/nda_legal_fr_2026.pdf)
-*   [NDA / Non-Disclosure Agreement (EN)]({{ site.baseurl }}/assets/legal/legal_nda_en_2026.pdf)
-
----
+*   [NDA / Accord de confidentialité (FR)](assets/legal/nda_legal_fr_2026.pdf)
+*   [NDA / Non-Disclosure Agreement (EN)](assets/legal/legal_nda_en_2026.pdf)
