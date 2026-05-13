@@ -1,7 +1,5 @@
 ﻿# Foliotype Protocol - Documentation Française
 
-> Last Sync: 2026-05-13 15:22:47
-
 ### 📂 Index des Protocoles
 * [Analyse Audio](analyse_audio.md)
 * [Certification Master](certification_master.md)

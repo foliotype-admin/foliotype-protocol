@@ -1,7 +1,5 @@
 ﻿# Foliotype Protocol - English Documentation
 
-> Last Sync: 2026-05-13 15:22:47
-
 ### 📂 Protocol Index
 * [Audio Analysis](audio_analysis.md)
 * [Data Integrity](data_integrity.md)
