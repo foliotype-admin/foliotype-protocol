@@ -2,10 +2,9 @@
 > l'extension audio haute fidélité pour les publications d'exception.
 
 ---
-
 ### 📺 streaming master references
-*   [🎥 master reference (français)](fr/foliotype_master_reference_fr.md)
-*   [🎥 master reference (english)](en/foliotype_master_reference_en.md)
+*   [🎥 master reference (français)](fr/foliotype_protocol_incipit_fr.md)
+*   [🎥 master reference (english)](en/foliotype_protocol_incipit_en.md)
 
 ### 🌍 documentation & index
 *   [index français (fr)](fr/readme_fr.md) | [english index (en)](en/readme_en.md)
