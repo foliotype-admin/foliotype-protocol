@@ -1,6 +1,6 @@
-﻿# Foliotype Protocol - Documentation Française
+# Foliotype Protocol - Documentation Fran�aise
 
-### 📂 Index des Protocoles
+### ?? Index des Protocoles
 * [Analyse Audio](analyse_audio.md)
 * [Certification Master](certification_master.md)
 * [Dry Run](dry_run.md)

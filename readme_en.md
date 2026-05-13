@@ -1,6 +1,6 @@
-﻿# Foliotype Protocol - English Documentation
+# Foliotype Protocol - English Documentation
 
-### 📂 Protocol Index
+### ?? Protocol Index
 * [Audio Analysis](audio_analysis.md)
 * [Data Integrity](data_integrity.md)
 * [Dry Run](dry_run.md)
