@@ -5,7 +5,7 @@ ________________________________________________________________________________
 # <img src="../brand/logo_foliotype.svg" width="35" valign="middle"> &nbsp; C E R T I F I E D _ M A S T E R E D _ E X P O R T &nbsp; <img src="../brand/logo_foliotype.svg" width="35" valign="middle">
 
 <p align="center">
-  <img src="../assets/mastering/audio-analysis/certified_mastered.png" width="600">
+  <img src="../assets/mastering/audio_analysis/certified_mastered.png" width="600">
 </p>
 
 ## 1. Metadata Injection & MP3 Integrity

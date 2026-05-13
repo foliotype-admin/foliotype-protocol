@@ -1,33 +1,31 @@
 ________________________________________________________________________________
-[ SOURCE_ID: DOC-CERTIFIED-FR-2026-V1.1 ]   [ <img src="../../brand/logo_foliotype.svg" width="18" valign="middle"> F O L I O T Y P E ]
+[ SOURCE_ID: DOC-CERTIFIED-FR-2026-V1.1 ]   [ <img src="../brand/logo_foliotype.svg" width="18" valign="middle"> F O L I O T Y P E ]
 ________________________________________________________________________________
 
-# <img src="../../brand/logo_foliotype.svg" width="35" valign="middle"> &nbsp; C E R T I F I C A T I O N _ M A S T E R _ E X P O R T &nbsp; <img src="../../brand/logo_foliotype.svg" width="35" valign="middle">
+# <img src="../brand/logo_foliotype.svg" width="35" valign="middle"> &nbsp; C E R T I F I C A T I O N _ M A S T E R _ E X P O R T &nbsp; <img src="../brand/logo_foliotype.svg" width="35" valign="middle">
+
+<p align="center">
+  <img src="../assets/mastering/audio_analysis/certified_mastered.png" width="600">
+</p>
 
 ## 1. Injection de Métadonnées & Intégrité MP3
-L'étape finale du protocole garantit que l'actif audio n'est pas seulement audible, mais aussi auto-documenté. Des balises ID3 standardisées et des métadonnées professionnelles sont injectées dans le conteneur MP3 pour garantir la traçabilité, la protection de la propriété intellectuelle et une intégration fluide avec les plateformes de diffusion.
+L'étape finale du protocole garantit que l'actif audio est auto-documenté. Des balises ID3 standardisées sont injectées pour la traçabilité et l'intégration aux plateformes.
 
 ## 2. Attestation de Conformité
-Ce document certifie que l'actif audio a subi une chaîne de traitement complète sous l'autorité du **Protocole Foliotype**, validant son intégrité technique et acoustique. Le sceau **Certified Mastered** garantit que le rendu final répond aux exigences professionnelles de diffusion.
+Ce document certifie que l'actif audio a été validé sous l'autorité du **Protocole Foliotype**. Le sceau **Certified Mastered** garantit la conformité aux exigences de diffusion.
 
 ## 3. Analyse du Signal (Supervision)
-Chaque segment sonore est passé au peigne fin via nos outils d'analyse pour garantir une expérience d'écoute optimale sur tous les appareils (systèmes Hi-Fi, casques, enceintes portables).
-
-* **Loudness (EBU R128) :** Normalisé à **-16 LUFS** pour préserver la dynamique sans saturation.
-* **Intégrité Spatiale :** Corrélation de phase positive maintenue pour une compatibilité monophonique totale.
-* **Équilibre Tonal :** Spectre fréquentiel calibré pour une clarté maximale du message.
+* **Loudness (EBU R128) :** Normalisé à **-16 LUFS**.
+* **Intégrité Spatiale :** Corrélation de phase positive vérifiée.
+* **Équilibre Tonal :** Spectre calibré pour une clarté maximale.
 
 > [!IMPORTANT]
-> Voir les détails techniques complets dans : [`PRODUCTION_VALIDATION.md`](./PRODUCTION_VALIDATION.md)
+> Détails techniques : [`production_validation.md`](./production_validation.md)
 
-## 4. Validation de l'Origine (Intégrité des Données)
-L'audio produit est certifié fidèle aux sources textuelles optimisées par le protocole. Le passage du texte écrit à la forme sonore a été audité pour respecter l'essence et la structure de la pensée originale.
-
-* **Source Certifiée :** [`SOURCE_TEXT_FR.md`](./SOURCE_TEXT_FR.md)
-* **Workflow de Transformation :** [`SCRIPT_MANAGEMENT.md`](./SCRIPT_MANAGEMENT.md)
-
-## 5. Sceau de Qualité
-L'apposition de ce sceau confirme que l'objet sonore n'est pas un simple divertissement, mais un accès fluide et transparent à la connaissance, conçu avec une totale humilité technique au profit du sens.
+## 4. Validation de l'Origine
+L'audio est certifié fidèle aux sources textuelles optimisées.
+* **Source Certifiée :** [`source_text.md`](./source_text.md)
+* **Workflow :** [`strategie_traitement_texte.md`](./strategie_traitement_texte.md)
 
 ---
 **STATUT :** `CONFORME`  
@@ -35,7 +33,11 @@ L'apposition de ce sceau confirme que l'objet sonore n'est pas un simple diverti
 **SIGNAL :** `PASS`
 
 ---
-> <img src="../../brand/logo_foliotype.svg" width="16"> **F O L I O T Y P E  P R O T O C O L** | [Excellence Acoustique & Intégrité Technique](./AUDIO_ANALYSIS.md)
+> <img src="../brand/logo_foliotype.svg" width="16"> **F O L I O T Y P E  P R O T O C O L** | [Analyse Audio](./analyse_audio.md)
 
-__________________________ <img src="../../brand/logo_foliotype.svg" width="20" valign="middle"> __________________________
+<p align="center">
+  <a href="../README.md"><b>🏠 Retour à l'accueil</b></a>
+</p>
+
+__________________________ <img src="../brand/logo_foliotype.svg" width="20" valign="middle"> __________________________
 [ STATUT : SOURCE_TEXTE_CERTIFIÉE ]                       [ CHECKSUM : VÉRIFIÉ ]
