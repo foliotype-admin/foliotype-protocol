@@ -6,9 +6,23 @@ title: Foliotype Protocol
 # Foliotype Protocol
 
 ### Vocal Signature / Signature Vocale
-Foliotype Protocol conçoit la mise en audio de vos écrits, comme une extension naturelle de vos publications papiers ou numériques. En scellant votre œuvre, Foliotype Protocol garantie sa **signature vocale** et la rigueur de son standard.
+Foliotype Protocol conçoit la mise en audio de vos écrits comme une extension naturelle de vos publications papiers ou numériques. En scellant votre œuvre, Foliotype Protocol garantit sa **signature vocale** et la rigueur de son standard.
 
 ### English Version
 Foliotype Protocol envisions the audio version of your work as a seamless extension of your print or digital publications. By sealing your work, Foliotype Protocol secures its **vocal signature** and the rigor of its standard.
+
+---
+
+### 📂 Documentation & Protocole
+
+| Français (FR) | English (EN) |
+| :--- | :--- |
+| [Stratégie de traitement]({{ site.baseurl }}/assets/fr/strategie_traitement_texte.md) | [Text Strategy]({{ site.baseurl }}/assets/en/text_strategy_processing.md) |
+| [Analyse Audio]({{ site.baseurl }}/assets/fr/analyse_audio.md) | [Audio Analysis]({{ site.baseurl }}/assets/en/audio_analysis.md) |
+| [Certification Master]({{ site.baseurl }}/assets/fr/certification_master.md) | [Master Certification]({{ site.baseurl }}/assets/en/master_certification.md) |
+
+### ⚖️ Legal & Compliance
+*   [NDA / Accord de confidentialité (FR)]({{ site.baseurl }}/assets/legal/nda_legal_fr_2026.pdf)
+*   [NDA / Non-Disclosure Agreement (EN)]({{ site.baseurl }}/assets/legal/legal_nda_en_2026.pdf)
 
 ---
