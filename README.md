@@ -16,3 +16,9 @@ L'extension audio haute fidelite pour les publications d'exception.
 
 ---
 > **Protocol Status**: Operational
+
+
+---
+<p align='center'>
+  <img src='https://github.com/pierrentsama/foliotype-protocol/raw/master/brand/logo_foliotype.svg' width='100'>
+</p>
