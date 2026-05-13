@@ -1,4 +1,6 @@
 ﻿# Foliotype Protocol
+![Bannière Foliotype](assets/brand/banniere.svg)
+
 L'extension audio haute fidelite pour les publications d'exception.
 
 ---
