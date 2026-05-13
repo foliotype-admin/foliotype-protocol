@@ -17,6 +17,10 @@ The high-fidelity audio extension for exceptional publications.
 ---
 > **Protocol Status**: Operational
 
+---
+### 🧪 Technical Proof
+* (./pipeline_demo.md)
+
 [Version Française](./readme_fr.md) [English Version](./readme_en.md)
 
 ---

@@ -17,7 +17,11 @@ L'extension audio haute fidelite pour les publications d'exception.
 ---
 > **Protocol Status**: Operational
 
-[📖 Documentation Française](readme_fr.md) | [📖 English Documentation](readme_en.md)
+---
+### 🧪 Technical Proof
+* [Consulter la démonstration du pipeline](./pipeline_demo.md)
+
+[Version Française](./readme_fr.md) [English Version](./readme_en.md)
 
 ---
 <p align='center'>
