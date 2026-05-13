@@ -21,7 +21,7 @@ API_KEY = os.getenv("ELEVEN_API_KEY")
 CURRENT_VOICE_ID = os.getenv("VOICE_ID_HERMES")
 
 # --- 2. RÉGLAGES ET PILOTAGE ---
-LANGUE = 'FR' 
+LANGUE = 'EN' 
 
 VOICE_CONFIG = {
     'FR': {
@@ -31,7 +31,7 @@ VOICE_CONFIG = {
             "stability": 0.65,
             "similarity_boost": 0.8,
             "style": 0.0,
-            "speed": 1.1,
+            "speed": 1.06,
             "use_speaker_boost": True
         }
     },
@@ -103,14 +103,25 @@ def generate_hermes():
         clean_out = config['out'].lower().replace(" ", "_")
         archive_name = f"{ts}_{clean_out}"
         
-        with open(output_dir / clean_out, "wb") as f: 
-            f.write(response.content)
-        with open(output_dir / archive_name, "wb") as f: 
-            f.write(response.content)
+        # --- BLOC DE NORMALISATION LUFS ---
+        from pydub import AudioSegment
+        import io
+
+        # Chargement de l'audio depuis la réponse API
+        audio = AudioSegment.from_file(io.BytesIO(response.content), format="mp3")
+        
+        # Cible de -18.0 LUFS pour une ampleur constante
+        target_lufs = -28.0
+        change_in_dbfs = target_lufs - audio.dBFS
+        normalized_audio = audio.apply_gain(change_in_dbfs)
+        
+        # Exportation des fichiers calibrés
+        normalized_audio.export(output_dir / clean_out, format="mp3")
+        normalized_audio.export(output_dir / archive_name, format="mp3")
+        # ----------------------------------
             
-        print(f"✅ SUCCÈS : {archive_name}")
+        print(f"✅ SUCCÈS : {archive_name} | Calibrage : {target_lufs} LUFS")
     else:
         print(f"❌ ÉCHEC : {response.status_code} - {response.text}")
-
 if __name__ == "__main__":
     generate_hermes()
