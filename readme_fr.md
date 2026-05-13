@@ -1,4 +1,4 @@
-﻿# Foliotype Protocol - Documentation Française
+# Foliotype Protocol - Documentation Française
 
 ### 📂 Index des Protocoles
 * [Analyse Audio](analyse_audio.md)
