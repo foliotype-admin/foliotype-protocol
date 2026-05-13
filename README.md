@@ -10,10 +10,10 @@ Foliotype Protocol envisions the audio version of your work as a seamless extens
 
 ### 📂 Documentation & Protocole
 
-*   [Stratégie de traitement](assets/fr/strategie_traitement_texte.md)
-*   [Analyse Audio](assets/fr/analyse_audio.md)
-*   [Certification Master](assets/fr/certification_master.md)
+*   [Stratégie de traitement](./assets/fr/strategie_traitement_texte.md)
+*   [Analyse Audio](./assets/fr/analyse_audio.md)
+*   [Certification Master](./assets/fr/certification_master.md)
 
 ### ⚖️ Legal & Compliance
-*   [NDA / Accord de confidentialité (FR)](assets/legal/nda_legal_fr_2026.pdf)
-*   [NDA / Non-Disclosure Agreement (EN)](assets/legal/legal_nda_en_2026.pdf)
+*   [NDA / Accord de confidentialité (FR)](./assets/legal/nda_legal_fr_2026.pdf)
+*   [NDA / Non-Disclosure Agreement (EN)](./assets/legal/legal_nda_en_2026.pdf)
