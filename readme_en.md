@@ -1,13 +1,25 @@
-# Foliotype Protocol - English Documentation
+# Foliotype Protocol
+![Banner](https://github.com/pierrentsama/foliotype-protocol/raw/master/brand/banniere.svg)
 
-### ?? Protocol Index
-* [Audio Analysis](audio_analysis.md)
-* [Data Integrity](data_integrity.md)
-* [Dry Run](dry_run.md)
-* [Master Certification](master_certification.md)
-* [Production Validation](production_validation.md)
-* [Source Text](source_text_en.md)
-* [Supervision Analysis](supervision_analysis.md)
-* [Text Strategy Processing](text_strategy_processing.md)
+The high-fidelity audio extension for exceptional publications.
 
-<!-- sync_id: 1538 -->
+---
+### Streaming
+* [Audio FR](https://github.com/pierrentsama/foliotype-protocol/raw/master/assets/output/mastered/foliotype_protocol_incipit_fr.mp3)
+* [Audio EN](https://github.com/pierrentsama/foliotype-protocol/raw/master/assets/output/mastered/foliotype_protocol_incipit_en.mp3)
+
+---
+### Video
+* [Download](https://github.com/pierrentsama/foliotype-protocol/raw/master/assets/output/mastered/foliotype_protocol_banniere_video.mp4)
+
+> **Technical note**: Due to the unpredictable nature of GitHub's video streaming conditions, Foliotype Protocol has opted for the straightforward download option.
+
+---
+> **Protocol Status**: Operational
+
+[Version Française](./readme_fr.md) [English Version](./readme_en.md)
+
+---
+<p align='center'>
+  <img src='https://github.com/pierrentsama/foliotype-protocol/raw/master/brand/logo_foliotype.svg' width='100'>
+</p>
