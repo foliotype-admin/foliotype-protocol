@@ -48,7 +48,7 @@ Chaque étape est pilotée par le moteur `hermes.py` situé dans `/cognition/scr
 *   **Validation** : Le script `certified_mastered.py` génère le sceau de conformité.
 
 <p align="center">
-  <img src="./assets/mastering/audio-analysis/certified_mastered.png" width="200">
+  <img src="./assets/mastering/audio-analysis/certified_mastered.png" width="80%">
 </p>
 
 ---
