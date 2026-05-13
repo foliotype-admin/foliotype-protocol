@@ -19,7 +19,7 @@ L'extension audio haute fidelite pour les publications d'exception.
 
 ---
 ### 🧪 Technical Proof
-* [Consulter la démonstration du pipeline](./pipeline_demo.md)
+* * [Consulter la démonstration du pipeline](./pipeline_demo.md)
 
 [Version Française](./readme_fr.md) [English Version](./readme_en.md)
 
