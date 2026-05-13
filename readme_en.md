@@ -9,3 +9,5 @@
 * [Source Text](source_text_en.md)
 * [Supervision Analysis](supervision_analysis.md)
 * [Text Strategy Processing](text_strategy_processing.md)
+
+<!-- sync_id: 1538 -->

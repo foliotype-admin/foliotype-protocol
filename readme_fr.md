@@ -10,3 +10,5 @@
 * [Texte Source](source_text.md)
 * [Strategie de Traitement de Texte](strategie_traitement_texte.md)
 * [Supervision](supervision.md)
+
+<!-- sync_id: 1538 -->
