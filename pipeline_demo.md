@@ -25,17 +25,12 @@ Avant tout traitement, le signal subit un audit complet pour garantir l'absence 
 
 ---
 
-## 🎚️ 02. Traitement du Signal (LUFS)
-Le flux audio est calibré selon les standards internationaux **EBU R128**.
-
-> **Standard Haute Fidélité** : Normalisation de l'intensité sonore perçue pour une expérience d'écoute homogène.
-
 <p align="center">
-  <img src="./assets/mastering/audio-analysis/lufs_standard.png" width="80%">
+  <img src="./assets/mastering/audio_analysis/lufs_standard.png" width="80%">
 </p>
 
 <p align="center">
-  <img src="./assets/mastering/audio-analysis/spectrogram.png" width="80%">
+  <img src="./assets/mastering/audio_analysis/spectrogram.png" width="80%">
   <br><i>Analyse fréquentielle et contrôle de phase</i>
 </p>
 
@@ -48,7 +43,7 @@ Chaque étape est pilotée par le moteur `hermes.py` situé dans `/cognition/scr
 *   **Validation** : Le script `certified_mastered.py` génère le sceau de conformité.
 
 <p align="center">
-  <img src="./assets/mastering/audio-analysis/certified_mastered.png" width="80%">
+  <img src="./assets/mastering/audio_analysis/certified_mastered.png" width="80%">
 </p>
 
 ---
