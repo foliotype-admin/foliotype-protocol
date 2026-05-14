@@ -1,5 +1,5 @@
 ________________________________________________________________________________
-[ SOURCE_ID: MANIFESTO-HERMES-2026-V1.0 ] <img src="../../brand/logo_foliotype.svg" width="18" valign="middle">
+[ SOURCE_ID: MANIFESTO-HERMES-2026-V1.0 ] ![Logo](https://raw.githubusercontent.com/foliotype/foliotype-protocol/master/brand/logo_foliotype.svg) [ **F P** ]
 ________________________________________________________________________________
 
 Bienvenue dans cette réflexion.
