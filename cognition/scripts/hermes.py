@@ -7,36 +7,35 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 # --- 1. CONFIGURATION ET CHARGEMENT ---
-# Détection dynamique de la racine du projet (foliotype-protocol)
 BASE_PATH = Path(__file__).resolve().parent.parent.parent
 env_path = BASE_PATH / ".env"
 
 if env_path.exists():
-    # override=True assure que les variables du fichier écrasent celles du système
     load_dotenv(dotenv_path=env_path, override=True)
 else:
     print(f"❌ ERREUR CRITIQUE : Fichier .env absent à {env_path}")
 
-API_KEY = os.getenv("ELEVEN_API_KEY")
-CURRENT_VOICE_ID = os.getenv("VOICE_ID_HERMES")
+# Alignement strict sur les clés du fichier .env
+API_KEY = os.getenv("ELEVENLABS_API_KEY") 
+CURRENT_VOICE_ID = os.getenv("HERMES_VOICE_ID")
 
 # --- 2. RÉGLAGES ET PILOTAGE ---
-LANGUE = 'EN' 
+LANGUE = 'FR' 
 
 VOICE_CONFIG = {
     'FR': {
-        'path': "docs/assets/workflow/script_source_fr.txt",
+        'path': "assets/workflow/script_source_fr.md",
         'out': "hermes_fr_master.mp3",
         'params': {
-            "stability": 0.65,
-            "similarity_boost": 0.8,
-            "style": 0.0,
-            "speed": 1.06,
+            "stability": 0.42,
+            "similarity_boost": 0.75,
+            "style": 0.35,
+            "speed": 1.08,
             "use_speaker_boost": True
         }
     },
     'EN': {
-        'path': "docs/assets/workflow/script_source_en.txt",
+        'path': "assets/workflow/script_source_en.md",
         'out': "hermes_en_master.mp3",
         'params': {
             "stability": 0.5,
@@ -50,21 +49,31 @@ VOICE_CONFIG = {
 
 # --- 3. MOTEUR RYTHMIQUE ---
 def inject_natural_rhythm(text):
-    def rand_sp(base):
-        return " " * (base + random.randint(-3, 4))
-    text = text.replace(", ", f", .{rand_sp(4)}. ")
-    text = re.sub(r'\. ([A-Z])', rf'.{rand_sp(10)}. \1', text)
+    def rand_pause(intensity):
+        # Utilise des points et des espaces pour simuler une pause
+        # ElevenLabs réagit plus aux points multiples séparés d'espaces
+        return " . " * random.randint(intensity, intensity + 2)
+
+    # 1. Pauses courtes après les virgules
+    text = text.replace(", ", f", {rand_pause(1)} ")
+    
+    # 2. Pauses moyennes entre les phrases
+    text = re.sub(r'\. ([A-Z])', rf'. {rand_pause(3)} \1', text)
+    
+    # 3. Pauses longues entre les paragraphes
     paragraphs = text.split("\n\n")
     processed_paragraphs = []
     for p in paragraphs:
         if p.strip():
-            processed_paragraphs.append(p.strip() + f".{rand_sp(18)}.")
+            # Ajout d'une pause marquée à la fin de chaque bloc
+            processed_paragraphs.append(p.strip() + rand_pause(5))
+            
     return "\n\n".join(processed_paragraphs)
 
 # --- 4. GÉNÉRATION ---
 def generate_hermes():
-    if not CURRENT_VOICE_ID:
-        print("❌ ÉCHEC : VOICE_ID_HERMES non détecté. Vérifiez votre fichier .env")
+    if not API_KEY or not CURRENT_VOICE_ID:
+        print("❌ ÉCHEC : Variables d'environnement ELEVENLABS_API_KEY ou HERMES_VOICE_ID manquantes.")
         return
 
     config = VOICE_CONFIG[LANGUE]
@@ -99,29 +108,23 @@ def generate_hermes():
 
     if response.status_code == 200:
         ts = time.strftime("%d%m_%H%M")
-        # Respect strict : minuscule et underscores uniquement
         clean_out = config['out'].lower().replace(" ", "_")
         archive_name = f"{ts}_{clean_out}"
         
-        # --- BLOC DE NORMALISATION LUFS ---
         from pydub import AudioSegment
         import io
 
-        # Chargement de l'audio depuis la réponse API
         audio = AudioSegment.from_file(io.BytesIO(response.content), format="mp3")
-        
-        # Cible de -18.0 LUFS pour une ampleur constante
         target_lufs = -28.0
         change_in_dbfs = target_lufs - audio.dBFS
         normalized_audio = audio.apply_gain(change_in_dbfs)
         
-        # Exportation des fichiers calibrés
         normalized_audio.export(output_dir / clean_out, format="mp3")
         normalized_audio.export(output_dir / archive_name, format="mp3")
-        # ----------------------------------
             
         print(f"✅ SUCCÈS : {archive_name} | Calibrage : {target_lufs} LUFS")
     else:
         print(f"❌ ÉCHEC : {response.status_code} - {response.text}")
+
 if __name__ == "__main__":
     generate_hermes()
