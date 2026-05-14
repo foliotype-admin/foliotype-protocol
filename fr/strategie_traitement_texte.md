@@ -26,7 +26,7 @@ Chaque fichier généré subit un scellement automatique via le module `ID3`. Le
 * **Sortie :** Actifs masterisés situés dans `docs/assets/mastering/`
 
 ---
-> <img src="../banniere.svg" width="16"> **F O L I O T Y P E  P R O T O C O L** | [Excellence Acoustique et Sécurisation des Métadonnées](./SUPERVISION_ANALYSIS.md)
+> <img src="../brand/logo_foliotype.svg" width="16"> **F O L I O T Y P E  P R O T O C O L** | [Excellence Acoustique et Sécurisation des Métadonnées](./analyse_supervision.md)
 
 ________________________________________________________________________________
 [ STATUS: CERTIFIED_TEXT_SOURCE ]                       [ CHECKSUM: VERIFIED ]
