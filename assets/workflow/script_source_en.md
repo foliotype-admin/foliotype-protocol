@@ -1,5 +1,5 @@
 ________________________________________________________________________________
-[ SOURCE_ID: MANIFESTO-HERMES-EN-2026-V1.0 ] [ logo_foliotype.svg ]  [ **F P** ]
+[ SOURCE_ID: MANIFESTO-HERMES-EN-2026-V1.0 ] ![Logo](../brand/logo_foliotype.svg) [ **F P** ]
 ________________________________________________________________________________
 Welcome to this reflection.
 
