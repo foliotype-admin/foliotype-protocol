@@ -27,10 +27,10 @@ VOICE_CONFIG = {
         'path': "assets/workflow/script_source_fr.md",
         'out': "hermes_fr_master.mp3",
         'params': {
-            "stability": 0.42,
-            "similarity_boost": 0.75,
-            "style": 0.35,
-            "speed": 1.08,
+            "stability": 0.40,
+            "similarity_boost": 0.82,
+            "style": 0.45,
+            "speed": 1.02,
             "use_speaker_boost": True
         }
     },
@@ -49,24 +49,29 @@ VOICE_CONFIG = {
 
 # --- 3. MOTEUR RYTHMIQUE ---
 def inject_natural_rhythm(text):
-    def rand_pause(intensity):
-        # Utilise des points et des espaces pour simuler une pause
-        # ElevenLabs réagit plus aux points multiples séparés d'espaces
-        return " . " * random.randint(intensity, intensity + 2)
+    def strong_pause(level):
+        # Le tiret cadratin (—) force une pause beaucoup plus nette que le point
+        if level == "soft":
+            return " — "
+        if level == "medium":
+            return " — . — "
+        if level == "hard":
+            return " — . — . — "
+        return " "
 
-    # 1. Pauses courtes après les virgules
-    text = text.replace(", ", f", {rand_pause(1)} ")
+    # 1. Remplace les virgules par des pauses marquées
+    text = text.replace(", ", f",{strong_pause('soft')} ")
     
-    # 2. Pauses moyennes entre les phrases
-    text = re.sub(r'\. ([A-Z])', rf'. {rand_pause(3)} \1', text)
+    # 2. Remplace les points par des silences profonds
+    text = re.sub(r'\. ([A-Z])', rf'.{strong_pause("medium")} \1', text)
     
-    # 3. Pauses longues entre les paragraphes
+    # 3. Pauses extrêmes entre les paragraphes
     paragraphs = text.split("\n\n")
     processed_paragraphs = []
     for p in paragraphs:
         if p.strip():
-            # Ajout d'une pause marquée à la fin de chaque bloc
-            processed_paragraphs.append(p.strip() + rand_pause(5))
+            # Ajout du tag de rupture maximale à la fin des blocs
+            processed_paragraphs.append(p.strip() + strong_pause("hard"))
             
     return "\n\n".join(processed_paragraphs)
 
