@@ -44,7 +44,7 @@ Le **Foliotype Protocol** fait plus que donner une voix à vos écrits. Il leur 
 **PROTOCOLE :** `FOLIOTYPE-V1.1`
 
 ---
-> <img src="../brand/foliotype-mark.svg" width="16"> **F O L I O T Y P E  P R O T O C O L** | [Identité Souveraine & Excellence Acoustique](./docs/EN/AUDIO_ANALYSIS.md)
+> <img src="../brand/foliotype-mark.svg" width="16"> **F O L I O T Y P E  P R O T O C O L** | [Identité Souveraine & Excellence Acoustique](./analyse_audio.md)
 
 ________________________________________________________________________________
 [ STATUS: CERTIFIED_TEXT_SOURCE ]                       [ CHECKSUM: VERIFIED ]
