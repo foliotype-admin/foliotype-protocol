@@ -10,8 +10,11 @@ Le système **Hermes AI Voice** repose sur une politique de "Source Ouverte". So
 ## 2. Référentiel des Scripts (Bilingue)
 Les fichiers listés ci-dessous représentent la structure logique exploitée par le moteur. Ils définissent la prosodie, le rythme et les paramètres vocaux certifiés par le protocole.
 
-* **Script de Configuration :** [`dry_run.py`](../../dry_run.py)
-* **Architecture Technique :** ![Moteur Hermes Core](../assets/scripts/hermes_core_engine.png)
+* **Script de Configuration :** Visualisation via [`hermes_core_engine.png`](../assets/scripts/hermes_core_engine.png)
+* **Architecture Technique :**
+<p align="center">
+  <img src="../assets/scripts/hermes_core_engine.png" width="80%">
+</p>
 
 ## 3. Le Processus de Transformation Text-to-Voice
 La qualité du rendu repose sur le passage du texte "visuel" au texte "vocal" (Optimisation Phonétique).
