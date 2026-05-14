@@ -43,7 +43,7 @@ Chaque étape est pilotée par le moteur `hermes.py` situé dans `/cognition/scr
 *   **Validation** : Le script `certified_mastered.py` génère le sceau de conformité.
 
 <p align="center">
-  <img src="./assets/scripts/hermes_core_engine.png" width="80%">
+  <img src="./assets/scripts/hermes_core_engine.png" width="900">
 </p>
 
 ---
