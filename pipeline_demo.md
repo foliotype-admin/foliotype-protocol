@@ -36,16 +36,15 @@ Avant tout traitement, le signal subit un audit complet pour garantir l'absence 
 
 ---
 
-## ⚙️ 03. Pipeline Cognition
+## 03. Pipeline Cognition
 Chaque étape est pilotée par le moteur `hermes.py` situé dans `/cognition/scripts/`.
 
 *   **Automatisation** : Scripting Python pour une reproductibilité totale.
 *   **Validation** : Le script `certified_mastered.py` génère le sceau de conformité.
 
 <p align="center">
-  <img src="./assets/mastering/audio_analysis/certified_mastered.png" width="80%">
+  <img src="./assets/mastering/audio_analysis/hermes_core_engine.png" width="80%">
 </p>
-
 ---
 
 ### 📂 Documentation Technique
