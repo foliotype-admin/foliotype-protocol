@@ -29,11 +29,18 @@ Avant tout traitement, le signal subit un audit complet pour garantir l'absence 
   <img src="./assets/mastering/audio_analysis/lufs_standard.png" width="80%">
 </p>
 
+📢 L'Équilibre Sonore : La Signature Foliotype
+
+Le standard Foliotype garantit un son puissant et clair, parfaitement calibré pour éviter toute saturation désagréable. Cette précision technique offre un confort d'écoute supérieur, permettant de se concentrer pleinement sur le message sans ajuster le volume.
+
 <p align="center">
   <img src="./assets/mastering/audio_analysis/spectrogram.png" width="80%">
-  <br><i>Analyse fréquentielle et contrôle de phase</i>
+  <br><i>
 </p>
 
+🧬 La Clarté de la Voix : Un Son Cristallin
+
+Notre analyse traite le son pour rendre la voix humaine nette et facile à comprendre dès la première écoute. Nous éliminons les bruits parasites et les fréquences agressives pour ne garder qu'une texture audio douce et naturelle.
 ---
 
 ## 03. Pipeline Cognition
