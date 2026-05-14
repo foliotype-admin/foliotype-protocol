@@ -13,6 +13,9 @@ The files listed below represent the logical structure used by the engine. They 
 * **Configuration Script:** [`scripts/DRY_RUN.py`](../../DRY_RUN.py)
 * **Technical Architecture:** ![Hermes Core](../assets/scripts/hermes_core_engine.png)
 
+### 🔍 Zoom on Hermes Core Engine
+The **Hermes Core** engine ensures the transition from written text to audio. It does more than just generate a voice; it seals an identity.
+
 ## 3. The Text-to-Voice Transformation Process
 Rendering quality relies on the transition from "visual" text to "vocal" text (Phonetic Optimization).
 

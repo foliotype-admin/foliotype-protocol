@@ -12,9 +12,14 @@ Les fichiers listés ci-dessous représentent la structure logique exploitée pa
 
 * **Script de Configuration :** Visualisation via [`hermes_core_engine.png`](../assets/scripts/hermes_core_engine.png)
 * **Architecture Technique :**
+
 <p align="center">
   <img src="../assets/scripts/hermes_core_engine.png" width="80%">
 </p>
+
+### 🔍 Zoom sur Hermes Core Engine
+Le moteur **Hermes Core** assure la transition entre l'écrit et l'auditif. Il ne se contente pas de générer une voix ; il scelle une identité. 
+
 
 ## 3. Le Processus de Transformation Text-to-Voice
 La qualité du rendu repose sur le passage du texte "visuel" au texte "vocal" (Optimisation Phonétique).
