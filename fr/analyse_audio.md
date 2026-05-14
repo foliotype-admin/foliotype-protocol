@@ -29,7 +29,6 @@ Le spectre fréquentiel est monitoré en temps réel pour valider l'équilibre t
 **RÉFÉRENCE :** `ISO-226:2023-COMPLIANT`  
 
 ---
-> <img src="../assets/banniere.svg" width="16"> **F O L I O T Y P E  P R O T O C O L** | [Conformité Acoustique & Intégrité du Signal](./supervision_analysis.md)
-
+> <img src="../brand/foliotype-mark.svg" width="16"> **F O L I O T Y P E  P R O T O C O L** | [Validation de Production & Certification](./production_validation.md)
 ________________________________________________________________________________
 [ STATUS: CERTIFIED_TEXT_SOURCE ]                       [ CHECKSUM: VERIFIED ]
