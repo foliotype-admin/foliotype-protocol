@@ -7,10 +7,13 @@ Le Protocole Foliotype transforme vos contenus textuels en expériences auditive
 
 ---
 
-### 🎙️ Streaming (Démonstrations)
-* [Audio FR - Qualité Master](https://github.com/pierrentsama/foliotype-protocol/raw/master/assets/output/mastered/foliotype_protocol_incipit_fr.mp3)
-* [Audio EN - Qualité Master](https://github.com/pierrentsama/foliotype-protocol/raw/master/assets/output/mastered/foliotype_protocol_incipit_en.mp3)
+### 🎙️ Test Lecteur Audio (Sandbox)
 
+**Français**
+<audio src="https://github.com/pierrentsama/foliotype-protocol/blob/master/assets/output/mastered/foliotype_protocol_incipit_fr.mp3?raw=true" controls preload="none"></audio>
+
+**English**
+<audio src="https://github.com/pierrentsama/foliotype-protocol/blob/master/assets/output/mastered/foliotype_protocol_incipit_en.mp3?raw=true" controls preload="none"></audio>
 ---
 
 ### 🎬 Video Asset
