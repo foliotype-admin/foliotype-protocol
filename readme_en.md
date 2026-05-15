@@ -1,4 +1,7 @@
+![Statut Production](https://github.com/[pierrentsama]/[foliotype-protocol]/actions/workflows/github_workflow_production.yml/badge.svg)
+
 # Foliotype Protocol
+
 ![Banner](https://github.com/pierrentsama/foliotype-protocol/raw/master/brand/banniere.svg)
 
 The high-fidelity audio extension for exceptional publications.

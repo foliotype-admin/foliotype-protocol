@@ -22,15 +22,15 @@ CURRENT_VOICE_ID = os.getenv("HERMES_VOICE_ID")
 # --- 2. RÉGLAGES ET PILOTAGE ---
 LANGUE = 'FR' 
 
-VOICE_CONFIG = {
+VOICE_CONFIG = VOICE_CONFIG = {
     'FR': {
         'path': "assets/workflow/script_source_fr.md",
         'out': "hermes_fr_master.mp3",
         'params': {
-            "stability": 0.40,
-            "similarity_boost": 0.82,
-            "style": 0.45,
-            "speed": 1.02,
+            "stability": 0.45,          # Augmenté pour éliminer les artefacts de voix
+            "similarity_boost": 0.88,    # Augmenté pour une meilleure définition du timbre
+            "style": 0.30,              # Baissé pour éviter la sur-interprétation de la ponctuation
+            "speed": 1.05,               # Vitesse naturelle pour stabiliser le débit
             "use_speaker_boost": True
         }
     },

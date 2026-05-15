@@ -1,0 +1,24 @@
+🔍 Note Explicative : Choix d'Infomaniak pour le Standard FP
+
+La sélection de l'infrastructure de messagerie et de stockage pour Foliotype Protocol (FP) a été soumise à une analyse de risques rigoureuse. Si l'ergonomie de solutions tierces a été envisagée, l'impératif de souveraineté et de protection du secret industriel a imposé le choix d'Infomaniak.
+1. Garantie de Souveraineté Intégrale
+
+    Protection Juridique : Contrairement aux solutions soumises au Cloud Act, Infomaniak opère sous juridiction Suisse.
+
+    Immunité Extraterritoriale : Les données (ADN technique, scripts Python et archives audio) sont protégées contre les saisies unilatérales sans décision de justice locale.
+
+    Confidentialité Client : Ce choix garantit que les actifs vocaux des clients ne transitent pas par des infrastructures traitant les données pour l'entraînement de modèles tiers.
+
+2. Architecture Technique Optimisée
+
+    Dissociation des Flux : L'infrastructure sépare la messagerie professionnelle du stockage lourd des actifs de production.
+
+    Sécurité des Envois : La plateforme assure une gestion native des protocoles SPF, DKIM et DMARC, garantissant la délivrabilité des masters sans risque d'usurpation.
+
+    Standard de Nommage : Tous les documents générés via cette infrastructure respecteront la nomenclature stricte minuscules_et_underscores.
+
+3. Synergie avec Cursor
+
+    Indexation Locale : Bien que l'intégration cloud directe soit écartée pour des raisons de sécurité, Cursor indexera les dossiers synchronisés localement via kDrive.
+
+    Préservation de l'ADN : Les fichiers de configuration (.json) et les sources (.md) sont conservés à demeure pour permettre la régénération fidèle via le Seed original.
