@@ -31,5 +31,5 @@ ________________________________________________________________________________
 [ STATUS : CERTIFIED_VOICE_SOURCE ]                   [ CHECKSUM : VALIDATED ]
 
 ---
-**Note Légale** : Ce projet est protégé par le droit d'auteur. Le protocole de scellage des masters a fait l'objet d'un dépôt d'antériorité référencé au registre e-Soleau (Dépôt du 15/05/2026).
-Ref: FT-20260515-INPI-SOLEAU
+    **Note Légale** : Ce projet est protégé par le droit d'auteur. Le protocole de scellage des masters a fait l'objet d'un dépôt d'antériorité référencé au registre e-Soleau (Dépôt du 15/05/2026).
+    Ref: FT-20260515-INPI-SOLEAU
