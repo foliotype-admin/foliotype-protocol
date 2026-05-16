@@ -1,0 +1,14 @@
+{
+    "gmail": {
+        "user": "pierre.pro@gmail.com",
+        "password": "mot_de_passe_secure_1"
+    },
+    "linkedin": {
+        "user": "pierre_linkedin",
+        "password": "mot_de_passe_secure_2"
+    },
+    "aws": {
+        "user": "pierre_aws",
+        "password": "mot_de_passe_secure_3"
+    }
+}
