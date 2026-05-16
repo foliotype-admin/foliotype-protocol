@@ -1,0 +1,28 @@
+# ------------------------------------------------------------------------------
+# 1. EXCEPTIONS (Autorisations prioritaires pour la structure)
+# ------------------------------------------------------------------------------
+!README.md
+!README_EN.md
+!LICENSE
+!*.json
+!*.yml
+!/brand/
+!/assets/
+!/masters/
+!/docs/
+# Note : !*.py est retiré pour éviter de forcer le suivi des scripts dans les dossiers ignorés
+
+# ------------------------------------------------------------------------------
+# 2. SÉCURITÉ & SECRETS (Dernier mot - Priorité absolue)
+# ------------------------------------------------------------------------------
+.env
+.env.*
+.vscode/
+cognition/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+output/
