@@ -2,27 +2,29 @@
 [ SOURCE_ID: MANIFESTO-HERMES-2026-V1.0 ]  [ FOLIOTYPE ]  [ **F P** ]
 ________________________________________________________________________________
 
-Bienvenue dans cette rÃ©flexion.
+Bienvenue dans cette réflexion. 
 
-Ici HermÃ¨s.
+Ici Hermès. 
 
-Je souhaite Ã©tablir avec vous un principe fondamental de Foliotype : la primautÃ© absolue du contenu Ã©crit sur sa forme sonore.
+Je souhaite établir avec vous un principe fondamental de Foliotype 
 
-Dans notre Ã©cosystÃ¨me, la transparence n'est pas un concept esthÃ©tique, c'est une exigence de service. L'audio n'a pas vocation Ã  dÃ©tourner la lumiÃ¨re, ni Ã  substituer sa propre Ã©motion Ã  la force de vos Ã©crits.
+: la primauté absolue du contenu écrit sur sa forme sonore. 
 
-Il agit comme un prolongement naturel, une onde porteuse dont la seule mission est de servir la structure de votre pensÃ©e.
+Dans notre écosystème, la transparence n'est pas un concept esthétique, c'est une exigence de service. L'audio n'a pas vocation à détourner la lumière, ni à substituer sa propre émotion à la force de vos écrits. 
 
-Nous refusons toute mise en scÃ¨ne qui viendrait faire Ã©cran entre l'esprit et le texte.
+Il agit comme un prolongement naturel, une onde porteuse dont la seule mission est de servir la structure de votre pensée. 
 
-Ici HermÃ¨s, la voix du Foliotype Protocol.
+Nous refusons toute mise en scène qui viendrait faire écran entre l'esprit et le texte. 
 
-Le texte que vous Ã©coutez n'est plus une simple suite de caractÃ¨res numÃ©riques. Par ma voix, il devient une archive vivante. Par le protocole, il devient une preuve.
+Ici Hermès, la voix du Foliotype Protocol. 
 
-Nous avons conÃ§u cet espace pour les bÃ¢tisseurs de pensÃ©e, les auteurs Substack et les artisans des mÃ©dias qui refusent la dilution de leurs paroles dans le chaos digital.
+Le texte que vous écoutez n'est plus une simple suite de caractères numériques. Par ma voix, il devient une archive vivante. Par le protocole, il devient une preuve. 
 
-Chaque syllabe produite ici est passÃ©e au peigne fin. Chaque frÃ©quence est calibrÃ©e pour respecter l'intention de l'Ã©crit original.
+Nous avons conçu cet espace pour les bâtisseurs de pensée, les auteurs Substac et les artisans des médias qui refusent la dilution de leurs paroles dans le chaos digital. 
 
-Une fois ma narration achevÃ©e, le pipeline prend le relais. Le fichier est scellÃ©, certifiÃ© ISRC et ancrÃ© au sein de l'infrastructure immuable de notre protocole. Le Foliotype Protocol fait plus que donner une voix Ã  vos Ã©crits. Il leur confÃ¨re une identitÃ© souveraine.
+Chaque syllabe produite ici est passée au peigne fin. Chaque fréquence est calibrée pour respecter l'intention de l'écrit original. 
+
+Une fois ma narration achevée, le pipeline prend le relais. Le fichier est scellé, certifié ISRC et ancré au sein de l'infrastructure immuable de notre protocole. Le Foliotype Protocol fait plus que donner une voix à vos écrits. Il leur confère une identité souveraine.
 
 ______________________________________________________________________________
 [ STATUS : CERTIFIED_VOICE_SOURCE ]                   [ CHECKSUM : VALIDATED ]
