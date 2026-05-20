@@ -1,35 +1,21 @@
-﻿________________________________________________________________________________
-[ SOURCE_ID: MANIFESTO-HERMES-EN-2026-V1.0 ] ![Logo](../brand/logo_foliotype.svg) [ **F P** ]
-________________________________________________________________________________
+﻿Welcome to Stendhal Syndrome. — . — . —
 
-# H E R M E S _ M A N I F E S T O
+If you have come this far, it is because a part of you is searching for artistic vertigo. —
 
-Welcome to this reflection.
+The world of creation is filled with works made to be received by the masses, but others are so strange that they do not always find their way to our eyes, fading instead into the grand cabinet of curiosities.
 
-This is Hermes.
+In this realm where temporary madness, flashing genius, and illuminated darkness reign supreme, there are works that scar you for life. — . — . —
 
-I wish to establish with you a core principle of **Foliotype**: the absolute primacy of written content over its audible form.
+What will remain of our world once we are gone? —
 
-In our ecosystem, transparency is not an aesthetic concept. It is a service requirement. Audio is not meant to divert the light, nor to substitute its own emotion for the strength of your writing.
+What vestiges will be left of our adventure? What deductions will future generations draw, tasked with investigating the remains of our civilization? — . — . —
 
-It acts as a natural extension, a carrier wave whose sole mission is to serve the structure of your thought. We reject any staging that would act as a screen between the mind and the text.
+The question of ruins is far more important than it appears, and whether they are real or mythical, they have never ceased to fire up our imagination.
 
-Our approach is intended to be complementary. It offers your audience the freedom of multitasking consumption without ever sacrificing the depth of the argument.
+Why do they carry so many fantasies and theories? And also, what narrative mechanics are unlocked by the presence of a ruin in a work of fiction? —
 
-> [!NOTE]
-> **This is Hermes, the voice of the Foliotype Protocol.**
+A ruin implies a journey along the timeline, and depending on its distance from us, its meaning and very nature can shift.
 
-The text you are listening to is no longer a simple sequence of digital characters. Through my voice, it becomes a living archive. Through the protocol, it becomes a proof.
+While the ruins of the past are undoubtedly the most mysterious and the first to come to mind, there is also a whole imagery surrounding the ruins of the present, and yet another for the ruins of tomorrow.
 
-We have designed this space for thought builders, Substack authors, and media artisans who refuse the dilution of their words in digital chaos.
-
-Every syllable produced here is scrutinized. Every frequency is calibrated to respect the intention of the original writing.
-
-Once my narration is complete, the pipeline takes over. The file is sealed, ISRC certified, and anchored within the immutable infrastructure of our protocol. The Foliotype Protocol does more than give a voice to your writings. It grants them a sovereign identity.
-
-________________________________________________________________________________
-[ STATUS : CERTIFIED_VOICE_SOURCE ]                   [ CHECKSUM : VALIDATED ]
-
----
-    **Note Légale** : Ce projet est protégé par le droit d'auteur. Le protocole de scellage des masters a fait l'objet d'un dépôt d'antériorité référencé au registre e-Soleau (Dépôt du 15/05/2026).
-    Ref: FT-20260515-INPI-SOLEAU
+If only one knows how to look, the ruin is everywhere, and each time it reveals itself, it overflows with signs waiting for us to interpret.
