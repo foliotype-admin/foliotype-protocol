@@ -1,37 +1,36 @@
-﻿# Foliotype Protocol
+# Foliotype Protocol
 ![Banniere](https://github.com/pierrentsama/foliotype-protocol/raw/master/brand/banniere.svg)
 
-**L'extension audio haute fidélité pour les publications d'exception.**
+**L'extension audio haute fid�lit� pour les publications d'exception.**
 
-Le Protocole Foliotype transforme vos contenus textuels en expériences auditives immersives, alliant la précision de l'IA à une esthétique sonore "Mastered". Idéal pour les newsletters premium, les articles de fond et les plateformes de publication de luxe.
-
----
-### 🎙️ Streaming (Démonstrations)
-
-* 🇫🇷 [**Audio FR - Qualité Master**](https://foliotype-admin.github.io/foliotype-protocol/assets/output/mastered/foliotype_protocol_incipit_fr.mp3)
-* 🇬🇧 [**Audio EN - Qualité Master**](https://foliotype-admin.github.io/foliotype-protocol/assets/output/mastered/foliotype_protocol_incipit_en.mp3)
+Le Protocole Foliotype transforme vos contenus textuels en exp�riences auditives immersives, alliant la pr�cision de l'IA � une esth�tique sonore "Mastered". Id�al pour les newsletters premium, les articles de fond et les plateformes de publication de luxe.
 
 ---
+### ??? Streaming (D�monstrations)
 
-### 🚀 Contact & Business
-Pour toute demande de déploiement, collaboration ou essai du protocole :
+* ???? [**Audio FR - Qualit� Master**](https://foliotype-admin.github.io/foliotype-protocol/assets/output/mastered/foliotype_protocol_incipit_fr.mp3)
+* ???? [**Audio EN - Qualit� Master**](https://foliotype-admin.github.io/foliotype-protocol/assets/output/mastered/foliotype_protocol_incipit_en.mp3)
+
+---
+
+### ?? Contact & Business
+Pour toute demande de d�ploiement, collaboration ou essai du protocole :
 **Email** : `correlation@foliotype-protocol.com`
 
 ---
 
-### ⚙️ Protocol Status
+### ?? Protocol Status
 > **Status**: Operational
 > **Version**: 1.0
 > **Signature ID3**: `foliotype:v1.0`
 
 ---
 
-### 🧪 Technical Proof
-* [Consulter la démonstration du pipeline technique](./pipeline_demo.md)
+### ?? Technical Proof
+* [Consulter la d�monstration du pipeline technique](./pipeline_demo.md)
 
 ---
 
-[Version Française](./readme_fr.md) | [English Version](./readme_en.md)
 
 <p align='center'>
   <img src='https://github.com/pierrentsama/foliotype-protocol/raw/master/brand/logo_foliotype.svg' width='100'>
