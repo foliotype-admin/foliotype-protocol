@@ -1,0 +1,14 @@
+{
+    "preset_name": "Shorts_B2B_US_Retention",
+    "engine_settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.85,
+      "style_exaggeration": 0.0,
+      "speaker_boost": true
+    },
+    "audio_pacing": {
+      "speed_factor": 0.96,
+      "silence_threshold_ms": 180,
+      "truncate_silences": true
+    }
+  }

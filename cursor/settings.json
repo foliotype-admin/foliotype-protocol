@@ -1,0 +1,6 @@
+{
+    "window.restoreWindows": "all",
+    "workbench.startupEditor": "readme",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.enablePersistentSessions": false
+}
