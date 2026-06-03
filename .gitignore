@@ -10,6 +10,12 @@
 !/assets/
 !/masters/
 !/docs/
+!brand/logo_foliotype.svg
+!brand/banniere.svg
+!assets/
+!mastering/
+!workflow/
+!pipeline_demo.md
 # Note : !*.py est retiré pour éviter de forcer le suivi des scripts dans les dossiers ignorés
 
 # ------------------------------------------------------------------------------
@@ -37,10 +43,6 @@ Add-Content .gitignore "`nhermes_local.py"
 *.enc
 *.salt
 
-# Fichiers audio et images temporaires
-*.mp3
-*.png
-
 # Scripts Python de travail
 sandbox_check.py
 test_phonetique.py
@@ -53,3 +55,10 @@ nettoyage_voix.py
 
 # Documentation interne
 creator_economy.md
+shorts_b2b_fast.json
+
+archive projet youtube EN
+
+
+
+Terminal

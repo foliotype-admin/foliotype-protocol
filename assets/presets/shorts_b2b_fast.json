@@ -1,0 +1,19 @@
+{
+    "preset_name": "Shorts_B2B_Fast_Retention",
+    "engine_settings": {
+      "stability": 0.59,
+      "similarity_boost": 0.85,
+      "style_exaggeration": 0.0,
+      "speaker_boost": true
+    },
+    "audio_pacing": {
+      "speed_factor": 1.06,
+      "silence_threshold_ms": 150,
+      "truncate_silences": true
+    },
+    "cubase_target_chain": {
+      "pre_eq": "Cut_Low_End_120Hz",
+      "dynamic_compression": "Fast_Attack_Punchy_Presence",
+      "output_format": "48kHz_24bit_WAV"
+    }
+  }
