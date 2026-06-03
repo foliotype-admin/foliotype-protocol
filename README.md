@@ -11,11 +11,6 @@ Le Protocole Foliotype transforme vos contenus textuels en expériences auditive
 * 🇫🇷 [**Audio FR - Qualité Master**](https://foliotype-admin.github.io/foliotype-protocol/assets/output/mastered/foliotype_protocol_incipit_fr.mp3)
 * 🇬🇧 [**Audio EN - Qualité Master**](https://foliotype-admin.github.io/foliotype-protocol/assets/output/mastered/foliotype_protocol_incipit_en.mp3)
 
-### 🎬 Video Asset
-* [Télécharger la vidéo de présentation](https://github.com/foliotype-admin/foliotype-protocol/raw/master/assets/output/mastered/foliotype_protocol_banniere_video.mp4)
-
-> **Note technique** : Pour garantir une fidélité visuelle optimale et contourner les restrictions de débit du streaming GitHub, le téléchargement direct est privilégié.
-
 ---
 
 ### 🚀 Contact & Business
