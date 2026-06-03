@@ -15,8 +15,6 @@ The high-fidelity audio extension for exceptional publications.
 * [Audio EN](https://github.com/pierrentsama/foliotype-protocol/raw/master/assets/output/mastered/foliotype_protocol_incipit_en.mp3)
 
 ---
-### Video
-* [Download](https://github.com/pierrentsama/foliotype-protocol/raw/master/assets/output/mastered/foliotype_protocol_banniere_video.mp4)
 
 > **Technical note**: Due to the unpredictable nature of GitHub's video streaming conditions, Foliotype Protocol has opted for the straightforward download option.
 
