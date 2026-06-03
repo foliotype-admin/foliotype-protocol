@@ -6,14 +6,12 @@
 Le Protocole Foliotype transforme vos contenus textuels en expériences auditives immersives, alliant la précision de l'IA à une esthétique sonore "Mastered". Idéal pour les newsletters premium, les articles de fond et les plateformes de publication de luxe.
 
 ---
+### 🎙️ Streaming (Démonstrations)
+* **Audio FR - Qualité Master**
+  <audio src="assets/output/mastered/foliotype_protocol_incipit_fr.mp3" controls></audio>
 
-### 🎙️ Streaming & Démonstrations
-
-* 🇫🇷 **Audio FR - Qualité Master**
-<audio controls src="./assets/output/mastered/foliotype_protocol_incipit_fr.mp3"></audio>
-
-* 🇬🇧 **Audio EN - Qualité Master**
-<audio controls src="./assets/output/mastered/foliotype_protocol_incipit_en.mp3"></audio>
+* **Audio EN - Qualité Master**
+  <audio src="assets/output/mastered/foliotype_protocol_incipit_en.mp3" controls></audio>
 
 ### 🎬 Video Asset
 * [Télécharger la vidéo de présentation](assets/output/mastered/foliotype_protocol_banniere_video.mp4)
