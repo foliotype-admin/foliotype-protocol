@@ -28,3 +28,28 @@ Thumbs.db
 output/
 
 Add-Content .gitignore "`nhermes_local.py"
+# Fichiers de données et prospection
+*.csv
+*.json
+*.txt
+
+# Sécurité et clés
+*.enc
+*.salt
+
+# Fichiers audio et images temporaires
+*.mp3
+*.png
+
+# Scripts Python de travail
+sandbox_check.py
+test_phonetique.py
+traitement_prospects.py
+generate_one_pager_pdf.py
+generate_pdf_charte.py
+gestionnaire_de_mots_de_passe.py
+hermes_backup_memo.py
+nettoyage_voix.py
+
+# Documentation interne
+creator_economy.md
